@@ -8,6 +8,9 @@ spring:
     hibernate:
       naming.implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
       naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 eureka:
   client:
     serviceUrl:
