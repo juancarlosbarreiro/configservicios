@@ -10,6 +10,9 @@ spring:
       naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   application:
     name: servicio-formacion
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 eureka:
   client:
     serviceUrl:
